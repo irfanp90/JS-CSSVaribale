@@ -1,0 +1,33 @@
+:root{
+    --base: #000080;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hi{
+    color: var(--base);
+}
+/* regular css */
+body {
+    text-align: center;
+    background:orangered;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+  .controls {
+    margin-bottom: 50px;
+  }
+  input {
+    width: 100px;
+  }
+  .pic{
+      width:800px;
+      height:400px;
+  }
